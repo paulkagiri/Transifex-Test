@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Transifex Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_screen">First Screen</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_screen">Hello first screen</string>
+    <string name="hello_second_screen">Hello second screen. Arg: %1$s</string>
+    <string name="send_email">Send email</string>
+    <string name="email_sent">Email has been sent</string>
+</resources>
