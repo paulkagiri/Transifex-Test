@@ -5,7 +5,7 @@
     <string name="second_screen">Second Screen</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="hello_first_screen">Hello first screen</string>
+    <string name="select_language">Select Language</string>
     <string name="hello_second_screen">Hello second screen. Arg: %1$s</string>
     <string name="send_email">Send email</string>
     <string name="email_sent">Email has been sent</string>

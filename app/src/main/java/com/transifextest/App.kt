@@ -4,6 +4,7 @@ import android.app.Application
 import android.util.Log
 import com.transifex.txnative.LocaleState
 import com.transifex.txnative.TxNative
+import java.util.*
 
 class App : Application() {
 
@@ -12,13 +13,14 @@ class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        initTransifex()
+         initTransifex()
     }
 
     private fun initTransifex() {
         try {
             Log.d(TAG, "Initializing Transifex")
-            val localeState = LocaleState(applicationContext, "en", arrayOf("en", "rw", "sw"), null)
+            val localeState =
+                LocaleState(applicationContext, "en", arrayOf("en", "rw", "sw"), Locale("rw"))
             TxNative.init(applicationContext, localeState, TRANSIFEX_TOKEN, null, null, null)
             Log.d(TAG, "Fetching translations from Transifex")
             TxNative.fetchTranslations("rw")

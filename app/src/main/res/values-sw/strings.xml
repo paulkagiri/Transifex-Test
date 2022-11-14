@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="action_settings">Mipangilio</string>
+    <string name="first_screen">Skrini ya Kwanza</string>
+    <string name="second_screen">Skrini ya pili</string>
+    <string name="next">Inayofuata</string>
+    <string name="previous">Iliyotangulia</string>
+    <string name="select_language">Chagua Lugha</string>
+    <string name="hello_second_screen">Habari skrini ya pili. Arg: %1$s</string>
+    <string name="send_email">Kutuma barua pepe</string>
+    <string name="email_sent">Barua pepe imetumwa</string>
+</resources>
