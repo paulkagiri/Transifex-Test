@@ -11,7 +11,7 @@ open class BaseActivity : AppCompatActivity() {
     /**
      * When I activate the method below then no translation is done
      *
-     *
+     */
     private var mAppCompatDelegate: TxContextWrappingDelegate? = null
     private val mResources: Resources? = null
 
@@ -22,7 +22,6 @@ open class BaseActivity : AppCompatActivity() {
         }
         return mAppCompatDelegate!!
     }
-    */
 
     /**
      * The following method is able to set the locale as needed

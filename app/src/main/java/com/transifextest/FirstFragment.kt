@@ -9,6 +9,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.transifex.txnative.TxNative
 import com.transifextest.databinding.FragmentFirstBinding
 
 
